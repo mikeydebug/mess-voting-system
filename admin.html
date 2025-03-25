@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin Panel - Mess Voting System</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Admin Panel</h1>
+    <h2>Add New Meal</h2>
+    <form id="addMealForm">
+      <label for="mealName">Meal Name:</label>
+      <input type="text" id="mealName" required>
+      <label for="mealPrice">Meal Price (₹):</label>
+      <input type="number" id="mealPrice" required>
+      <button type="submit">Add Meal</button>
+    </form>
+    <h2>All Votes</h2>
+    <ul id="allVotes"></ul>
+    <h2>Meal Budget</h2>
+    <label for="budget">Set Daily Meal Budget (₹):</label>
+    <input type="number" id="budget" value="50">
+    <button id="updateBudget">Update Budget</button>
+    <h2>Meals Within Budget</h2>
+    <ul id="budgetMeals"></ul>
+    <h2>Most Popular Meals Within Budget</h2>
+    <ul id="popularMeals"></ul>
+    <h2>Feedback Submissions</h2>
+    <ul id="feedbackList"></ul>
+    <h2>Voting System</h2>
+    <button id="toggleVoting">Disable Voting</button>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
