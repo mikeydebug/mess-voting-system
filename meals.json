@@ -1,0 +1,7 @@
+[
+  { "name": "Paneer Tikka", "price": 45, "calories": 350 },
+  { "name": "Chole Bhature", "price": 40, "calories": 500 },
+  { "name": "Vegetable Biryani", "price": 50, "calories": 450 },
+  { "name": "Dal Makhani", "price": 35, "calories": 300 },
+  { "name": "Butter Chicken", "price": 60, "calories": 550 }
+]
